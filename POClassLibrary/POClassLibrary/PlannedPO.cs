@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POClassLibrary
 {
-    class PlannedPO: PurchaseOrder
+    public class PlannedPO: PurchaseOrder
     {
         public DateTime sendingDateTime;
         public DateTime recvDateTime;

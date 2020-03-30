@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POClassLibrary
 {
-    class BlanketPO: PurchaseOrder
+    public class BlanketPO: PurchaseOrder
     {
         public BlanketPO(string title) : base(title)
         {

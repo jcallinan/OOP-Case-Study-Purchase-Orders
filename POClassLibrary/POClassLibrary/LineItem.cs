@@ -11,10 +11,10 @@ namespace POClassLibrary
         CASE,
         LITER
     }
-    class LineItem
+    public class LineItem
     {
         public double itemAmount;
-        public UOM UOM;
+         UOM UOM;
         public string title;
         public string partNumber;
         public string vendorPartNumber;

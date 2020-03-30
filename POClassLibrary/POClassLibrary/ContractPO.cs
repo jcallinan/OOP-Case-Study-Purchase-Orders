@@ -4,11 +4,11 @@ using System.Text;
 
 namespace POClassLibrary
 {
-    class ContractPO : PurchaseOrder
+    public class ContractPO : PurchaseOrder
     {
         public double contractRate;
         public double contractTotal;
-        public UOM UOM;
+         UOM UOM;
         public ContractPO(string title) : base(title)
         {
 

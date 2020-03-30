@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POClassLibrary
 {
-    class PurchaseOrder
+    public class PurchaseOrder
     {
         string title;
         double grandTotal;
